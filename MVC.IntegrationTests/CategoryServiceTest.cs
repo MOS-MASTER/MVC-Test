@@ -62,10 +62,5 @@ namespace CS.IntegrationTests
             var delete = _categoryService.Delete(category);
             Assert.IsTrue(delete);
         }
-
-        public void testingTheRepo()
-        {
-            Console.Write("gaap");
-        }
     }
 }
