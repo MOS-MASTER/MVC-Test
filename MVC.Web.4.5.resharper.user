@@ -13,22 +13,26 @@
     <RecentFiles>
       <File id="E4B4ECEA-BF3F-4331-878A-9D656E3579D6/d:DataAccess/d:SqlServer/f:SqlCategoryRepository.cs" caret="949" fromTop="8" />
       <File id="84775D8F-AF02-4F6A-B3A3-8045DAE6DA9C/d:Interfaces/f:ICategoryService.cs" caret="391" fromTop="15" />
-      <File id="2F670D39-8C25-4688-AC90-3C83A8A84F4C/f:SqlCategoryRepositoryTest.cs" caret="1293" fromTop="14" />
-      <File id="2F670D39-8C25-4688-AC90-3C83A8A84F4C/f:CategoryServiceTest.cs" caret="1895" fromTop="14" />
+      <File id="2F670D39-8C25-4688-AC90-3C83A8A84F4C/f:SqlCategoryRepositoryTest.cs" caret="40" fromTop="2" />
+      <File id="2F670D39-8C25-4688-AC90-3C83A8A84F4C/f:CategoryServiceTest.cs" caret="0" fromTop="0" />
+      <File id="E4B4ECEA-BF3F-4331-878A-9D656E3579D6/d:Model/f:Person.cs" caret="323" fromTop="15" />
+      <File id="E4B4ECEA-BF3F-4331-878A-9D656E3579D6/d:Model/f:Product.cs" caret="0" fromTop="0" />
     </RecentFiles>
     <RecentEdits>
-      <File id="2F670D39-8C25-4688-AC90-3C83A8A84F4C/f:CategoryServiceTest.cs" caret="1555" fromTop="11" />
+      <File id="2F670D39-8C25-4688-AC90-3C83A8A84F4C/f:CategoryServiceTest.cs" caret="2169" fromTop="11" />
       <File id="2F670D39-8C25-4688-AC90-3C83A8A84F4C/f:SqlCategoryRepositoryTest.cs" caret="933" fromTop="8" />
       <File id="2F670D39-8C25-4688-AC90-3C83A8A84F4C/f:SqlCategoryRepositoryTest.cs" caret="1585" fromTop="18" />
       <File id="2F670D39-8C25-4688-AC90-3C83A8A84F4C/f:SqlCategoryRepositoryTest.cs" caret="431" fromTop="9" />
-      <File id="2F670D39-8C25-4688-AC90-3C83A8A84F4C/f:CategoryServiceTest.cs" caret="952" fromTop="5" />
-      <File id="2F670D39-8C25-4688-AC90-3C83A8A84F4C/f:CategoryServiceTest.cs" caret="2144" fromTop="9" />
+      <File id="2F670D39-8C25-4688-AC90-3C83A8A84F4C/f:CategoryServiceTest.cs" caret="2169" fromTop="5" />
       <File id="E4B4ECEA-BF3F-4331-878A-9D656E3579D6/d:DataAccess/d:SqlServer/f:SqlCategoryRepository.cs" caret="1023" fromTop="9" />
       <File id="E4B4ECEA-BF3F-4331-878A-9D656E3579D6/d:DataAccess/d:SqlServer/f:SqlCategoryRepository.cs" caret="1254" fromTop="15" />
-      <File id="2F670D39-8C25-4688-AC90-3C83A8A84F4C/f:CategoryServiceTest.cs" caret="1539" fromTop="4" />
-      <File id="2F670D39-8C25-4688-AC90-3C83A8A84F4C/f:CategoryServiceTest.cs" caret="1895" fromTop="14" />
+      <File id="2F670D39-8C25-4688-AC90-3C83A8A84F4C/f:CategoryServiceTest.cs" caret="2169" fromTop="4" />
+      <File id="2F670D39-8C25-4688-AC90-3C83A8A84F4C/f:CategoryServiceTest.cs" caret="2169" fromTop="14" />
       <File id="2F670D39-8C25-4688-AC90-3C83A8A84F4C/f:SqlCategoryRepositoryTest.cs" caret="935" fromTop="4" />
       <File id="2F670D39-8C25-4688-AC90-3C83A8A84F4C/f:SqlCategoryRepositoryTest.cs" caret="1293" fromTop="14" />
+      <File id="2F670D39-8C25-4688-AC90-3C83A8A84F4C/f:CategoryServiceTest.cs" caret="2169" fromTop="13" />
+      <File id="2F670D39-8C25-4688-AC90-3C83A8A84F4C/f:CategoryServiceTest.cs" caret="0" fromTop="0" />
+      <File id="E4B4ECEA-BF3F-4331-878A-9D656E3579D6/d:Model/f:Person.cs" caret="309" fromTop="12" />
     </RecentEdits>
   </RecentFiles>
   <UnitTestRunner>
@@ -39,18 +43,21 @@
   </UnitTestRunnerMSTest>
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
-      <Item value="public" priority="5" />
-      <Item value="void" priority="2" />
+      <Item value="public" priority="8" />
+      <Item value="void" priority="3" />
       <Item value="return" priority="3" />
       <Item value="add" priority="1" />
       <Item value="Assert" priority="6" />
-      <Item value="private" priority="1" />
+      <Item value="private" priority="3" />
       <Item value="SqlCategoryRepositoryAddNewCategoryWithNameCoding" priority="0" />
       <Item value="SqlCategoryRepositoryDeleteNewCategoryWithNameCoding" priority="0" />
       <Item value="var" priority="3" />
       <Item value="delete" priority="1" />
       <Item value="TestMethod" priority="1" />
       <Item value="linqcategory" priority="0" />
+      <Item value="ConsoleKeyInfo" priority="0" />
+      <Item value="int" priority="0" />
+      <Item value="string" priority="2" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
       <Item value="IsTrue" priority="7" />
@@ -59,6 +66,9 @@
       <Item value="DeleteAllOnSubmit" priority="0" />
       <Item value="Select" priority="0" />
       <Item value="DeleteOnSubmit" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="Write" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>
