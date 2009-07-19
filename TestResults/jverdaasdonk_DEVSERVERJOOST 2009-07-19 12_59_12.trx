@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7ebd0d93-2a40-4bdd-9da4-74e63f2e5ceb" name="jverdaasdonk@DEVSERVERJOOST 2009-07-19 12:59:12" runUser="DEVSERVERJOOST\jverdaasdonk" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="5562d093-2659-4a60-8d31-0b8630ab0b88">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\TestResults\jverdaasdonk_DEVSERVERJOOST 2009-07-19 12_59_12">
+      <DeploymentItem filename="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.Data\bin\Debug\CS.Data.dll" />
+      <DeploymentItem filename="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.Services\bin\Debug\CS.Services.dll" />
+      <DeploymentItem filename="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.Web\bin\CS.Web.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="39" executed="39" passed="39" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2009-07-19T12:59:12.3272500+02:00" queuing="2009-07-19T12:59:13.0460000+02:00" start="2009-07-19T12:59:13.3116250+02:00" finish="2009-07-19T12:59:15.0772500+02:00" />
+  <TestDefinitions>
+    <UnitTest name="ChangePasswordPostReturnsViewIfNewPasswordIsNull" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.modeltests\bin\debug\cs.tests.dll" id="b6156d45-7806-ab68-5902-77b694fff85c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="7aa09641-6f27-45fc-bb6c-9a653229a092" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.ModelTests\bin\Debug\CS.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.Tests.Controllers.AccountControllerTest, CS.Tests" name="ChangePasswordPostReturnsViewIfNewPasswordIsNull" />
+    </UnitTest>
+    <UnitTest name="LoginGet" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.modeltests\bin\debug\cs.tests.dll" id="7e8f3518-2c69-d265-2185-15a0c1f014f0">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="c652283b-1ba3-4e59-9e1e-af83ba649e15" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.ModelTests\bin\Debug\CS.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.Tests.Controllers.AccountControllerTest, CS.Tests" name="LoginGet" />
+    </UnitTest>
+    <UnitTest name="LoginPostRedirectsHomeIfLoginSuccessfulButNoReturnUrlGiven" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.modeltests\bin\debug\cs.tests.dll" id="1ad314c1-59b3-852f-de5f-f8e3a676b9e3">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="fd78885e-1d11-4cea-8c3d-5b4a2007d8e1" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.ModelTests\bin\Debug\CS.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.Tests.Controllers.AccountControllerTest, CS.Tests" name="LoginPostRedirectsHomeIfLoginSuccessfulButNoReturnUrlGiven" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordPostReturnsViewIfNewPasswordDoesNotMatchConfirmPassword" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.modeltests\bin\debug\cs.tests.dll" id="8442f306-8128-3412-971c-70892b51e194">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="b42d5b2b-c62e-4717-9963-8eac8c09bf31" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.ModelTests\bin\Debug\CS.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.Tests.Controllers.AccountControllerTest, CS.Tests" name="ChangePasswordPostReturnsViewIfNewPasswordDoesNotMatchConfirmPassword" />
+    </UnitTest>
+    <UnitTest name="ProductServiceShouldReturnProductAppels" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.integrationtests\bin\debug\cs.integrationtests.dll" id="ecb0caf6-3940-82fe-7f2b-867dcf756056">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="ed081ee1-8a89-4022-a965-42f49480f8d5" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.IntegrationTests\bin\Debug\CS.IntegrationTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.IntegrationTests.ProductServiceTest, CS.IntegrationTests" name="ProductServiceShouldReturnProductAppels" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordPostReturnsViewIfCurrentPasswordNotSpecified" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.modeltests\bin\debug\cs.tests.dll" id="c0f3e042-0eb5-97fb-c206-2f0b0fcb4c30">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="93d6a2fa-6dca-4908-b5de-3e86e210d95a" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.ModelTests\bin\Debug\CS.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.Tests.Controllers.AccountControllerTest, CS.Tests" name="ChangePasswordPostReturnsViewIfCurrentPasswordNotSpecified" />
+    </UnitTest>
+    <UnitTest name="RegisterPostRedirectsHomeIfRegistrationSuccessful" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.modeltests\bin\debug\cs.tests.dll" id="49e51016-0746-4d07-091e-7b34e831a581">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="fd98950b-7a26-4de9-abcc-84f96a9733ed" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.ModelTests\bin\Debug\CS.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.Tests.Controllers.AccountControllerTest, CS.Tests" name="RegisterPostRedirectsHomeIfRegistrationSuccessful" />
+    </UnitTest>
+    <UnitTest name="ProductServiceShouldReturnProductOneWithNameAppels" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.integrationtests\bin\debug\cs.integrationtests.dll" id="8629383e-befa-3ebd-b68d-effc71224f6b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="627556f7-c003-47ad-9b59-08b3e425103e" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.IntegrationTests\bin\Debug\CS.IntegrationTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.IntegrationTests.ProductServiceTest, CS.IntegrationTests" name="ProductServiceShouldReturnProductOneWithNameAppels" />
+    </UnitTest>
+    <UnitTest name="SqlProductRepositoryShouldReturnProductsAsQueryable" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.integrationtests\bin\debug\cs.integrationtests.dll" id="3b5e9930-4867-8bf6-c93c-a718f9ed6a66">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="677ca878-f9cf-4e1c-a415-638401553478" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.IntegrationTests\bin\Debug\CS.IntegrationTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.IntegrationTests.ProductIntegrationTest, CS.IntegrationTests" name="SqlProductRepositoryShouldReturnProductsAsQueryable" />
+    </UnitTest>
+    <UnitTest name="LoginPostRedirectsToReturnUrlIfLoginSuccessfulAndReturnUrlGiven" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.modeltests\bin\debug\cs.tests.dll" id="73ddf029-113d-8939-b5cf-eee4a6eb0db0">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="d4d40959-a590-4f93-a6cc-f79416fba1e2" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.ModelTests\bin\Debug\CS.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.Tests.Controllers.AccountControllerTest, CS.Tests" name="LoginPostRedirectsToReturnUrlIfLoginSuccessfulAndReturnUrlGiven" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordPostRedirectsOnSuccess" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.modeltests\bin\debug\cs.tests.dll" id="3021dec6-4654-5112-7d5a-f1ea5df5b08a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="63a02328-bdca-43bd-b662-8f697954e7ff" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.ModelTests\bin\Debug\CS.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.Tests.Controllers.AccountControllerTest, CS.Tests" name="ChangePasswordPostRedirectsOnSuccess" />
+    </UnitTest>
+    <UnitTest name="About" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.modeltests\bin\debug\cs.tests.dll" id="7bcd167c-f57b-1967-dede-42dd8e2dc771">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="2f1232eb-b90d-42ed-87e9-c02d7796cd8f" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.ModelTests\bin\Debug\CS.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.Tests.Controllers.HomeControllerTest, CS.Tests" name="About" />
+    </UnitTest>
+    <UnitTest name="SqlCategoryRepositoryShouldReturnCategoriesAsQueryable" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.integrationtests\bin\debug\cs.integrationtests.dll" id="b261d57a-a0d4-2422-1b4e-7720fd67ae92">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="0162bf81-2e00-42a7-8191-57b93928997e" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.IntegrationTests\bin\Debug\CS.IntegrationTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.IntegrationTests.SqlCategoryRepositoryTest, CS.IntegrationTests" name="SqlCategoryRepositoryShouldReturnCategoriesAsQueryable" />
+    </UnitTest>
+    <UnitTest name="ProductServiceShouldReturnSixProducts" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.integrationtests\bin\debug\cs.integrationtests.dll" id="e68d1464-fcf8-7402-6098-3a2400796d66">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="094f8013-4ef5-4f94-9aaa-c993f009d2ff" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.IntegrationTests\bin\Debug\CS.IntegrationTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.IntegrationTests.ProductServiceTest, CS.IntegrationTests" name="ProductServiceShouldReturnSixProducts" />
+    </UnitTest>
+    <UnitTest name="LoginPostReturnsViewIfPasswordNotSpecified" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.modeltests\bin\debug\cs.tests.dll" id="cdbd5838-b26b-cb3f-8a29-64dcc50f7dcd">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="293ac9c3-1d2d-4d2a-9daf-713a4cffa13f" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.ModelTests\bin\Debug\CS.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.Tests.Controllers.AccountControllerTest, CS.Tests" name="LoginPostReturnsViewIfPasswordNotSpecified" />
+    </UnitTest>
+    <UnitTest name="SqlProductRepositoryProductOneShouldHaveNameAppels" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.integrationtests\bin\debug\cs.integrationtests.dll" id="d6f8995f-62af-6c1c-217a-ec8c4a792499">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="69743438-c9f1-402c-804b-08a86034f23e" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.IntegrationTests\bin\Debug\CS.IntegrationTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.IntegrationTests.ProductIntegrationTest, CS.IntegrationTests" name="SqlProductRepositoryProductOneShouldHaveNameAppels" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordGetReturnsView" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.modeltests\bin\debug\cs.tests.dll" id="2782f7cb-2688-f28b-b2f4-07afb50de0be">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="00842e0c-6611-4d67-8877-63def67f3f93" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.ModelTests\bin\Debug\CS.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.Tests.Controllers.AccountControllerTest, CS.Tests" name="ChangePasswordGetReturnsView" />
+    </UnitTest>
+    <UnitTest name="RegisterPostReturnsViewIfPasswordIsNull" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.modeltests\bin\debug\cs.tests.dll" id="a1d9f1c3-e42e-58fb-9f8b-20b6ab4af88b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e0b0f5f6-14ab-4fd0-9ff0-9593653fdd6f" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.ModelTests\bin\Debug\CS.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.Tests.Controllers.AccountControllerTest, CS.Tests" name="RegisterPostReturnsViewIfPasswordIsNull" />
+    </UnitTest>
+    <UnitTest name="RegisterGet" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.modeltests\bin\debug\cs.tests.dll" id="1ec260dc-2306-b499-ba62-f3514f536d28">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="85572d1e-1f14-4de9-a053-f84f51dd1a32" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.ModelTests\bin\Debug\CS.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.Tests.Controllers.AccountControllerTest, CS.Tests" name="RegisterGet" />
+    </UnitTest>
+    <UnitTest name="LoginPostReturnsViewIfUsernameOrPasswordIsIncorrect" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.modeltests\bin\debug\cs.tests.dll" id="f1c4ebfa-6279-38d3-2bfe-ed606d6a2b2a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="f896371c-dff0-4d00-8220-1040967e490b" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.ModelTests\bin\Debug\CS.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.Tests.Controllers.AccountControllerTest, CS.Tests" name="LoginPostReturnsViewIfUsernameOrPasswordIsIncorrect" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordPostReturnsViewIfProviderRejectsPassword" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.modeltests\bin\debug\cs.tests.dll" id="b68423dd-e2ee-2ed7-dd16-e926c9bdcacb">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="79e715d3-ec8e-40c1-8f5a-56704b1b2f85" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.ModelTests\bin\Debug\CS.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.Tests.Controllers.AccountControllerTest, CS.Tests" name="ChangePasswordPostReturnsViewIfProviderRejectsPassword" />
+    </UnitTest>
+    <UnitTest name="CategoryServiceShouldReturnCategoryFruits" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.integrationtests\bin\debug\cs.integrationtests.dll" id="3b352e0d-4fd7-d071-a055-c45c5efa12fe">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="1aac062c-3bc9-4615-834b-66615fa13d12" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.IntegrationTests\bin\Debug\CS.IntegrationTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.IntegrationTests.CategoryServiceTest, CS.IntegrationTests" name="CategoryServiceShouldReturnCategoryFruits" />
+    </UnitTest>
+    <UnitTest name="SqlProductRepositoryProductCountShouldReturn6" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.integrationtests\bin\debug\cs.integrationtests.dll" id="a7f4f3f7-2e5b-f27f-9d03-1518b0eacc28">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="fdaf49fb-c515-4e27-accf-27f029348d67" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.IntegrationTests\bin\Debug\CS.IntegrationTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.IntegrationTests.ProductIntegrationTest, CS.IntegrationTests" name="SqlProductRepositoryProductCountShouldReturn6" />
+    </UnitTest>
+    <UnitTest name="RegisterPostReturnsViewIfPasswordIsTooShort" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.modeltests\bin\debug\cs.tests.dll" id="2fe9e594-960b-b63f-58e7-00ef3c0fc096">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a047342c-2fc4-4d29-9f10-495691c24507" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.ModelTests\bin\Debug\CS.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.Tests.Controllers.AccountControllerTest, CS.Tests" name="RegisterPostReturnsViewIfPasswordIsTooShort" />
+    </UnitTest>
+    <UnitTest name="RegisterPostReturnsViewIfRegistrationFails" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.modeltests\bin\debug\cs.tests.dll" id="978291a2-173c-b150-f20a-86004ddc209c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="931bec66-8e90-4ad3-9321-28fafb9da849" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.ModelTests\bin\Debug\CS.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.Tests.Controllers.AccountControllerTest, CS.Tests" name="RegisterPostReturnsViewIfRegistrationFails" />
+    </UnitTest>
+    <UnitTest name="ConstructorSetsPropertiesToDefaultValues" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.modeltests\bin\debug\cs.tests.dll" id="aefea2e9-42a9-60da-48b9-ea371ae55f07">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="776f5d75-b9fd-428b-9472-6ee6b4cfda3d" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.ModelTests\bin\Debug\CS.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.Tests.Controllers.AccountControllerTest, CS.Tests" name="ConstructorSetsPropertiesToDefaultValues" />
+    </UnitTest>
+    <UnitTest name="CategoryFruitsShouldReturnFiveProducts" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.integrationtests\bin\debug\cs.integrationtests.dll" id="d251235d-3f9a-02dd-b058-93859f63f687">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5b252eaa-b3bd-43e4-9642-039aa96eccc9" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.IntegrationTests\bin\Debug\CS.IntegrationTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.IntegrationTests.CategoryServiceTest, CS.IntegrationTests" name="CategoryFruitsShouldReturnFiveProducts" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordPostReturnsViewIfNewPasswordIsTooShort" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.modeltests\bin\debug\cs.tests.dll" id="2b19ef71-a87a-3de6-4549-f3085f97e3db">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="c909d093-bf64-417e-8e9a-4a0b357d278d" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.ModelTests\bin\Debug\CS.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.Tests.Controllers.AccountControllerTest, CS.Tests" name="ChangePasswordPostReturnsViewIfNewPasswordIsTooShort" />
+    </UnitTest>
+    <UnitTest name="Index" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.modeltests\bin\debug\cs.tests.dll" id="5f22b840-4d2e-d46b-3163-aae92730969b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="4082cd26-06e4-462d-8f81-65d76a364d4f" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.ModelTests\bin\Debug\CS.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.Tests.Controllers.HomeControllerTest, CS.Tests" name="Index" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordSuccess" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.modeltests\bin\debug\cs.tests.dll" id="752db495-9d53-cd00-c7cc-acf5099953b4">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="fcd683d7-4f23-4ab7-a768-331739c7179c" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.ModelTests\bin\Debug\CS.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.Tests.Controllers.AccountControllerTest, CS.Tests" name="ChangePasswordSuccess" />
+    </UnitTest>
+    <UnitTest name="SqlCategoryRepositoryShouldReturnFiveProductsForCategoryOne" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.integrationtests\bin\debug\cs.integrationtests.dll" id="ce2696e7-06d2-a9a6-86a0-8d39eab0b37a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="84292488-60f5-4a17-943d-0581a89713fe" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.IntegrationTests\bin\Debug\CS.IntegrationTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.IntegrationTests.SqlCategoryRepositoryTest, CS.IntegrationTests" name="SqlCategoryRepositoryShouldReturnFiveProductsForCategoryOne" />
+    </UnitTest>
+    <UnitTest name="ConstructorSetsProperties" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.modeltests\bin\debug\cs.tests.dll" id="9e02600f-4a4e-a1af-3421-fefe541bd7bc">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="6067826b-9131-41b2-baf9-5da023cf2f90" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.ModelTests\bin\Debug\CS.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.Tests.Controllers.AccountControllerTest, CS.Tests" name="ConstructorSetsProperties" />
+    </UnitTest>
+    <UnitTest name="RegisterPostReturnsViewIfNewPasswordDoesNotMatchConfirmPassword" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.modeltests\bin\debug\cs.tests.dll" id="41c44287-daa6-8ae9-08c6-83777306e379">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="14ba72eb-eb0b-477c-a8a7-357d6d98ca42" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.ModelTests\bin\Debug\CS.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.Tests.Controllers.AccountControllerTest, CS.Tests" name="RegisterPostReturnsViewIfNewPasswordDoesNotMatchConfirmPassword" />
+    </UnitTest>
+    <UnitTest name="CategoryServiceShouldReturnCategoryOneWithNameFruits" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.integrationtests\bin\debug\cs.integrationtests.dll" id="9760d0ce-fa54-5ecd-9a14-9a259f5f5ce4">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="6e7daf8a-d66d-4628-be65-7bf1a627ee7b" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.IntegrationTests\bin\Debug\CS.IntegrationTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.IntegrationTests.CategoryServiceTest, CS.IntegrationTests" name="CategoryServiceShouldReturnCategoryOneWithNameFruits" />
+    </UnitTest>
+    <UnitTest name="RegisterPostReturnsViewIfEmailNotSpecified" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.modeltests\bin\debug\cs.tests.dll" id="686c3588-062c-1710-87d4-74aa63e45649">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="1f368fc9-8b14-461c-9451-732b6ed45f65" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.ModelTests\bin\Debug\CS.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.Tests.Controllers.AccountControllerTest, CS.Tests" name="RegisterPostReturnsViewIfEmailNotSpecified" />
+    </UnitTest>
+    <UnitTest name="LoginPostReturnsViewIfUsernameNotSpecified" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.modeltests\bin\debug\cs.tests.dll" id="770881f6-03a7-b60d-0ee2-ab528c08c86f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="1ed97077-6574-4034-bb74-d671309fad01" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.ModelTests\bin\Debug\CS.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.Tests.Controllers.AccountControllerTest, CS.Tests" name="LoginPostReturnsViewIfUsernameNotSpecified" />
+    </UnitTest>
+    <UnitTest name="RegisterPostReturnsViewIfUsernameNotSpecified" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.modeltests\bin\debug\cs.tests.dll" id="f946bf02-7dc1-b70a-698b-9f928e1c378b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="f8e5b148-8269-44d6-baf1-6f120720342b" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.ModelTests\bin\Debug\CS.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.Tests.Controllers.AccountControllerTest, CS.Tests" name="RegisterPostReturnsViewIfUsernameNotSpecified" />
+    </UnitTest>
+    <UnitTest name="LogOff" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.modeltests\bin\debug\cs.tests.dll" id="87db12f3-5de5-5a71-dee8-3a2677593064">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="fd47a713-817e-4def-82cd-31d6521eb8f8" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.ModelTests\bin\Debug\CS.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.Tests.Controllers.AccountControllerTest, CS.Tests" name="LogOff" />
+    </UnitTest>
+    <UnitTest name="ProductsRepositoryShouldReturn5Products" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.modeltests\bin\debug\cs.tests.dll" id="5c102f9f-5399-5215-94be-e6e2ea4473f4">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e73fe835-1d78-45c9-b27c-b25f28b1d661" />
+      <TestMethod codeBase="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\MVC.Web\MVC.ModelTests\bin\Debug\CS.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CS.Tests.Model.ProductTest, CS.Tests" name="ProductsRepositoryShouldReturn5Products" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1ad314c1-59b3-852f-de5f-f8e3a676b9e3" executionId="fd78885e-1d11-4cea-8c3d-5b4a2007d8e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1ec260dc-2306-b499-ba62-f3514f536d28" executionId="85572d1e-1f14-4de9-a053-f84f51dd1a32" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2782f7cb-2688-f28b-b2f4-07afb50de0be" executionId="00842e0c-6611-4d67-8877-63def67f3f93" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2b19ef71-a87a-3de6-4549-f3085f97e3db" executionId="c909d093-bf64-417e-8e9a-4a0b357d278d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2fe9e594-960b-b63f-58e7-00ef3c0fc096" executionId="a047342c-2fc4-4d29-9f10-495691c24507" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3021dec6-4654-5112-7d5a-f1ea5df5b08a" executionId="63a02328-bdca-43bd-b662-8f697954e7ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3b352e0d-4fd7-d071-a055-c45c5efa12fe" executionId="1aac062c-3bc9-4615-834b-66615fa13d12" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3b5e9930-4867-8bf6-c93c-a718f9ed6a66" executionId="677ca878-f9cf-4e1c-a415-638401553478" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="41c44287-daa6-8ae9-08c6-83777306e379" executionId="14ba72eb-eb0b-477c-a8a7-357d6d98ca42" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="49e51016-0746-4d07-091e-7b34e831a581" executionId="fd98950b-7a26-4de9-abcc-84f96a9733ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5c102f9f-5399-5215-94be-e6e2ea4473f4" executionId="e73fe835-1d78-45c9-b27c-b25f28b1d661" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5f22b840-4d2e-d46b-3163-aae92730969b" executionId="4082cd26-06e4-462d-8f81-65d76a364d4f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="686c3588-062c-1710-87d4-74aa63e45649" executionId="1f368fc9-8b14-461c-9451-732b6ed45f65" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="73ddf029-113d-8939-b5cf-eee4a6eb0db0" executionId="d4d40959-a590-4f93-a6cc-f79416fba1e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="752db495-9d53-cd00-c7cc-acf5099953b4" executionId="fcd683d7-4f23-4ab7-a768-331739c7179c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="770881f6-03a7-b60d-0ee2-ab528c08c86f" executionId="1ed97077-6574-4034-bb74-d671309fad01" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7bcd167c-f57b-1967-dede-42dd8e2dc771" executionId="2f1232eb-b90d-42ed-87e9-c02d7796cd8f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e8f3518-2c69-d265-2185-15a0c1f014f0" executionId="c652283b-1ba3-4e59-9e1e-af83ba649e15" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8442f306-8128-3412-971c-70892b51e194" executionId="b42d5b2b-c62e-4717-9963-8eac8c09bf31" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8629383e-befa-3ebd-b68d-effc71224f6b" executionId="627556f7-c003-47ad-9b59-08b3e425103e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="87db12f3-5de5-5a71-dee8-3a2677593064" executionId="fd47a713-817e-4def-82cd-31d6521eb8f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9760d0ce-fa54-5ecd-9a14-9a259f5f5ce4" executionId="6e7daf8a-d66d-4628-be65-7bf1a627ee7b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="978291a2-173c-b150-f20a-86004ddc209c" executionId="931bec66-8e90-4ad3-9321-28fafb9da849" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9e02600f-4a4e-a1af-3421-fefe541bd7bc" executionId="6067826b-9131-41b2-baf9-5da023cf2f90" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a1d9f1c3-e42e-58fb-9f8b-20b6ab4af88b" executionId="e0b0f5f6-14ab-4fd0-9ff0-9593653fdd6f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a7f4f3f7-2e5b-f27f-9d03-1518b0eacc28" executionId="fdaf49fb-c515-4e27-accf-27f029348d67" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aefea2e9-42a9-60da-48b9-ea371ae55f07" executionId="776f5d75-b9fd-428b-9472-6ee6b4cfda3d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b261d57a-a0d4-2422-1b4e-7720fd67ae92" executionId="0162bf81-2e00-42a7-8191-57b93928997e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b6156d45-7806-ab68-5902-77b694fff85c" executionId="7aa09641-6f27-45fc-bb6c-9a653229a092" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b68423dd-e2ee-2ed7-dd16-e926c9bdcacb" executionId="79e715d3-ec8e-40c1-8f5a-56704b1b2f85" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c0f3e042-0eb5-97fb-c206-2f0b0fcb4c30" executionId="93d6a2fa-6dca-4908-b5de-3e86e210d95a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cdbd5838-b26b-cb3f-8a29-64dcc50f7dcd" executionId="293ac9c3-1d2d-4d2a-9daf-713a4cffa13f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ce2696e7-06d2-a9a6-86a0-8d39eab0b37a" executionId="84292488-60f5-4a17-943d-0581a89713fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d251235d-3f9a-02dd-b058-93859f63f687" executionId="5b252eaa-b3bd-43e4-9642-039aa96eccc9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d6f8995f-62af-6c1c-217a-ec8c4a792499" executionId="69743438-c9f1-402c-804b-08a86034f23e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e68d1464-fcf8-7402-6098-3a2400796d66" executionId="094f8013-4ef5-4f94-9aaa-c993f009d2ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ecb0caf6-3940-82fe-7f2b-867dcf756056" executionId="ed081ee1-8a89-4022-a965-42f49480f8d5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f1c4ebfa-6279-38d3-2bfe-ed606d6a2b2a" executionId="f896371c-dff0-4d00-8220-1040967e490b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f946bf02-7dc1-b70a-698b-9f928e1c378b" executionId="f8e5b148-8269-44d6-baf1-6f120720342b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="fd78885e-1d11-4cea-8c3d-5b4a2007d8e1" testId="1ad314c1-59b3-852f-de5f-f8e3a676b9e3" testName="LoginPostRedirectsHomeIfLoginSuccessfulButNoReturnUrlGiven" computerName="DEVSERVERJOOST" duration="00:00:00.0922572" startTime="2009-07-19T12:59:13.3741250+02:00" endTime="2009-07-19T12:59:13.9522500+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="85572d1e-1f14-4de9-a053-f84f51dd1a32" testId="1ec260dc-2306-b499-ba62-f3514f536d28" testName="RegisterGet" computerName="DEVSERVERJOOST" duration="00:00:00.0008892" startTime="2009-07-19T12:59:13.9522500+02:00" endTime="2009-07-19T12:59:13.9522500+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="00842e0c-6611-4d67-8877-63def67f3f93" testId="2782f7cb-2688-f28b-b2f4-07afb50de0be" testName="ChangePasswordGetReturnsView" computerName="DEVSERVERJOOST" duration="00:00:00.0005752" startTime="2009-07-19T12:59:13.9678750+02:00" endTime="2009-07-19T12:59:13.9678750+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c909d093-bf64-417e-8e9a-4a0b357d278d" testId="2b19ef71-a87a-3de6-4549-f3085f97e3db" testName="ChangePasswordPostReturnsViewIfNewPasswordIsTooShort" computerName="DEVSERVERJOOST" duration="00:00:00.0019144" startTime="2009-07-19T12:59:13.9678750+02:00" endTime="2009-07-19T12:59:13.9678750+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a047342c-2fc4-4d29-9f10-495691c24507" testId="2fe9e594-960b-b63f-58e7-00ef3c0fc096" testName="RegisterPostReturnsViewIfPasswordIsTooShort" computerName="DEVSERVERJOOST" duration="00:00:00.0015482" startTime="2009-07-19T12:59:13.9835000+02:00" endTime="2009-07-19T12:59:13.9835000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="63a02328-bdca-43bd-b662-8f697954e7ff" testId="3021dec6-4654-5112-7d5a-f1ea5df5b08a" testName="ChangePasswordPostRedirectsOnSuccess" computerName="DEVSERVERJOOST" duration="00:00:00.0016152" startTime="2009-07-19T12:59:13.9835000+02:00" endTime="2009-07-19T12:59:13.9991250+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1aac062c-3bc9-4615-834b-66615fa13d12" testId="3b352e0d-4fd7-d071-a055-c45c5efa12fe" testName="CategoryServiceShouldReturnCategoryFruits" computerName="DEVSERVERJOOST" duration="00:00:00.0872337" startTime="2009-07-19T12:59:13.9991250+02:00" endTime="2009-07-19T12:59:14.5616250+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="677ca878-f9cf-4e1c-a415-638401553478" testId="3b5e9930-4867-8bf6-c93c-a718f9ed6a66" testName="SqlProductRepositoryShouldReturnProductsAsQueryable" computerName="DEVSERVERJOOST" duration="00:00:00.0034962" startTime="2009-07-19T12:59:14.5616250+02:00" endTime="2009-07-19T12:59:14.5772500+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="14ba72eb-eb0b-477c-a8a7-357d6d98ca42" testId="41c44287-daa6-8ae9-08c6-83777306e379" testName="RegisterPostReturnsViewIfNewPasswordDoesNotMatchConfirmPassword" computerName="DEVSERVERJOOST" duration="00:00:00.0005964" startTime="2009-07-19T12:59:14.5772500+02:00" endTime="2009-07-19T12:59:14.5772500+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fd98950b-7a26-4de9-abcc-84f96a9733ed" testId="49e51016-0746-4d07-091e-7b34e831a581" testName="RegisterPostRedirectsHomeIfRegistrationSuccessful" computerName="DEVSERVERJOOST" duration="00:00:00.0010397" startTime="2009-07-19T12:59:14.5772500+02:00" endTime="2009-07-19T12:59:14.5928750+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e73fe835-1d78-45c9-b27c-b25f28b1d661" testId="5c102f9f-5399-5215-94be-e6e2ea4473f4" testName="ProductsRepositoryShouldReturn5Products" computerName="DEVSERVERJOOST" duration="00:00:00.0035630" startTime="2009-07-19T12:59:14.5928750+02:00" endTime="2009-07-19T12:59:14.6085000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4082cd26-06e4-462d-8f81-65d76a364d4f" testId="5f22b840-4d2e-d46b-3163-aae92730969b" testName="Index" computerName="DEVSERVERJOOST" duration="00:00:00.0008042" startTime="2009-07-19T12:59:14.6085000+02:00" endTime="2009-07-19T12:59:14.6085000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1f368fc9-8b14-461c-9451-732b6ed45f65" testId="686c3588-062c-1710-87d4-74aa63e45649" testName="RegisterPostReturnsViewIfEmailNotSpecified" computerName="DEVSERVERJOOST" duration="00:00:00.0005936" startTime="2009-07-19T12:59:14.6085000+02:00" endTime="2009-07-19T12:59:14.6241250+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d4d40959-a590-4f93-a6cc-f79416fba1e2" testId="73ddf029-113d-8939-b5cf-eee4a6eb0db0" testName="LoginPostRedirectsToReturnUrlIfLoginSuccessfulAndReturnUrlGiven" computerName="DEVSERVERJOOST" duration="00:00:00.0004263" startTime="2009-07-19T12:59:14.6241250+02:00" endTime="2009-07-19T12:59:14.6241250+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fcd683d7-4f23-4ab7-a768-331739c7179c" testId="752db495-9d53-cd00-c7cc-acf5099953b4" testName="ChangePasswordSuccess" computerName="DEVSERVERJOOST" duration="00:00:00.0004436" startTime="2009-07-19T12:59:14.6241250+02:00" endTime="2009-07-19T12:59:14.6397500+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1ed97077-6574-4034-bb74-d671309fad01" testId="770881f6-03a7-b60d-0ee2-ab528c08c86f" testName="LoginPostReturnsViewIfUsernameNotSpecified" computerName="DEVSERVERJOOST" duration="00:00:00.0005738" startTime="2009-07-19T12:59:14.6397500+02:00" endTime="2009-07-19T12:59:14.6397500+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2f1232eb-b90d-42ed-87e9-c02d7796cd8f" testId="7bcd167c-f57b-1967-dede-42dd8e2dc771" testName="About" computerName="DEVSERVERJOOST" duration="00:00:00.0008154" startTime="2009-07-19T12:59:14.6397500+02:00" endTime="2009-07-19T12:59:14.6553750+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c652283b-1ba3-4e59-9e1e-af83ba649e15" testId="7e8f3518-2c69-d265-2185-15a0c1f014f0" testName="LoginGet" computerName="DEVSERVERJOOST" duration="00:00:00.0004413" startTime="2009-07-19T12:59:14.6553750+02:00" endTime="2009-07-19T12:59:14.6710000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b42d5b2b-c62e-4717-9963-8eac8c09bf31" testId="8442f306-8128-3412-971c-70892b51e194" testName="ChangePasswordPostReturnsViewIfNewPasswordDoesNotMatchConfirmPassword" computerName="DEVSERVERJOOST" duration="00:00:00.0006436" startTime="2009-07-19T12:59:14.6710000+02:00" endTime="2009-07-19T12:59:14.6710000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="627556f7-c003-47ad-9b59-08b3e425103e" testId="8629383e-befa-3ebd-b68d-effc71224f6b" testName="ProductServiceShouldReturnProductOneWithNameAppels" computerName="DEVSERVERJOOST" duration="00:00:00.0097328" startTime="2009-07-19T12:59:14.6710000+02:00" endTime="2009-07-19T12:59:14.6866250+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fd47a713-817e-4def-82cd-31d6521eb8f8" testId="87db12f3-5de5-5a71-dee8-3a2677593064" testName="LogOff" computerName="DEVSERVERJOOST" duration="00:00:00.0006168" startTime="2009-07-19T12:59:14.6866250+02:00" endTime="2009-07-19T12:59:14.7022500+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6e7daf8a-d66d-4628-be65-7bf1a627ee7b" testId="9760d0ce-fa54-5ecd-9a14-9a259f5f5ce4" testName="CategoryServiceShouldReturnCategoryOneWithNameFruits" computerName="DEVSERVERJOOST" duration="00:00:00.0069198" startTime="2009-07-19T12:59:14.7022500+02:00" endTime="2009-07-19T12:59:14.7178750+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="931bec66-8e90-4ad3-9321-28fafb9da849" testId="978291a2-173c-b150-f20a-86004ddc209c" testName="RegisterPostReturnsViewIfRegistrationFails" computerName="DEVSERVERJOOST" duration="00:00:00.0008082" startTime="2009-07-19T12:59:14.7178750+02:00" endTime="2009-07-19T12:59:14.7178750+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6067826b-9131-41b2-baf9-5da023cf2f90" testId="9e02600f-4a4e-a1af-3421-fefe541bd7bc" testName="ConstructorSetsProperties" computerName="DEVSERVERJOOST" duration="00:00:00.0133218" startTime="2009-07-19T12:59:14.7178750+02:00" endTime="2009-07-19T12:59:14.7491250+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e0b0f5f6-14ab-4fd0-9ff0-9593653fdd6f" testId="a1d9f1c3-e42e-58fb-9f8b-20b6ab4af88b" testName="RegisterPostReturnsViewIfPasswordIsNull" computerName="DEVSERVERJOOST" duration="00:00:00.0005995" startTime="2009-07-19T12:59:14.7491250+02:00" endTime="2009-07-19T12:59:14.7491250+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fdaf49fb-c515-4e27-accf-27f029348d67" testId="a7f4f3f7-2e5b-f27f-9d03-1518b0eacc28" testName="SqlProductRepositoryProductCountShouldReturn6" computerName="DEVSERVERJOOST" duration="00:00:00.0049073" startTime="2009-07-19T12:59:14.7491250+02:00" endTime="2009-07-19T12:59:14.7647500+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="776f5d75-b9fd-428b-9472-6ee6b4cfda3d" testId="aefea2e9-42a9-60da-48b9-ea371ae55f07" testName="ConstructorSetsPropertiesToDefaultValues" computerName="DEVSERVERJOOST" duration="00:00:00.0008333" startTime="2009-07-19T12:59:14.7647500+02:00" endTime="2009-07-19T12:59:14.7803750+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0162bf81-2e00-42a7-8191-57b93928997e" testId="b261d57a-a0d4-2422-1b4e-7720fd67ae92" testName="SqlCategoryRepositoryShouldReturnCategoriesAsQueryable" computerName="DEVSERVERJOOST" duration="00:00:00.0007593" startTime="2009-07-19T12:59:14.7803750+02:00" endTime="2009-07-19T12:59:14.7803750+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7aa09641-6f27-45fc-bb6c-9a653229a092" testId="b6156d45-7806-ab68-5902-77b694fff85c" testName="ChangePasswordPostReturnsViewIfNewPasswordIsNull" computerName="DEVSERVERJOOST" duration="00:00:00.0006126" startTime="2009-07-19T12:59:14.7960000+02:00" endTime="2009-07-19T12:59:14.7960000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="79e715d3-ec8e-40c1-8f5a-56704b1b2f85" testId="b68423dd-e2ee-2ed7-dd16-e926c9bdcacb" testName="ChangePasswordPostReturnsViewIfProviderRejectsPassword" computerName="DEVSERVERJOOST" duration="00:00:00.0006056" startTime="2009-07-19T12:59:14.7960000+02:00" endTime="2009-07-19T12:59:14.8272500+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="93d6a2fa-6dca-4908-b5de-3e86e210d95a" testId="c0f3e042-0eb5-97fb-c206-2f0b0fcb4c30" testName="ChangePasswordPostReturnsViewIfCurrentPasswordNotSpecified" computerName="DEVSERVERJOOST" duration="00:00:00.0005819" startTime="2009-07-19T12:59:14.8428750+02:00" endTime="2009-07-19T12:59:14.8428750+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="293ac9c3-1d2d-4d2a-9daf-713a4cffa13f" testId="cdbd5838-b26b-cb3f-8a29-64dcc50f7dcd" testName="LoginPostReturnsViewIfPasswordNotSpecified" computerName="DEVSERVERJOOST" duration="00:00:00.0005210" startTime="2009-07-19T12:59:14.8428750+02:00" endTime="2009-07-19T12:59:14.8428750+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="84292488-60f5-4a17-943d-0581a89713fe" testId="ce2696e7-06d2-a9a6-86a0-8d39eab0b37a" testName="SqlCategoryRepositoryShouldReturnFiveProductsForCategoryOne" computerName="DEVSERVERJOOST" duration="00:00:00.0017443" startTime="2009-07-19T12:59:14.8585000+02:00" endTime="2009-07-19T12:59:14.8585000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5b252eaa-b3bd-43e4-9642-039aa96eccc9" testId="d251235d-3f9a-02dd-b058-93859f63f687" testName="CategoryFruitsShouldReturnFiveProducts" computerName="DEVSERVERJOOST" duration="00:00:00.0131586" startTime="2009-07-19T12:59:14.8585000+02:00" endTime="2009-07-19T12:59:14.8741250+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="69743438-c9f1-402c-804b-08a86034f23e" testId="d6f8995f-62af-6c1c-217a-ec8c4a792499" testName="SqlProductRepositoryProductOneShouldHaveNameAppels" computerName="DEVSERVERJOOST" duration="00:00:00.0057711" startTime="2009-07-19T12:59:14.8897500+02:00" endTime="2009-07-19T12:59:14.8897500+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="094f8013-4ef5-4f94-9aaa-c993f009d2ff" testId="e68d1464-fcf8-7402-6098-3a2400796d66" testName="ProductServiceShouldReturnSixProducts" computerName="DEVSERVERJOOST" duration="00:00:00.0045723" startTime="2009-07-19T12:59:14.9053750+02:00" endTime="2009-07-19T12:59:14.9053750+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ed081ee1-8a89-4022-a965-42f49480f8d5" testId="ecb0caf6-3940-82fe-7f2b-867dcf756056" testName="ProductServiceShouldReturnProductAppels" computerName="DEVSERVERJOOST" duration="00:00:00.0107837" startTime="2009-07-19T12:59:14.9053750+02:00" endTime="2009-07-19T12:59:14.9366250+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f896371c-dff0-4d00-8220-1040967e490b" testId="f1c4ebfa-6279-38d3-2bfe-ed606d6a2b2a" testName="LoginPostReturnsViewIfUsernameOrPasswordIsIncorrect" computerName="DEVSERVERJOOST" duration="00:00:00.0005858" startTime="2009-07-19T12:59:14.9366250+02:00" endTime="2009-07-19T12:59:14.9366250+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f8e5b148-8269-44d6-baf1-6f120720342b" testId="f946bf02-7dc1-b70a-698b-9f928e1c378b" testName="RegisterPostReturnsViewIfUsernameNotSpecified" computerName="DEVSERVERJOOST" duration="00:00:00.0005827" startTime="2009-07-19T12:59:14.9522500+02:00" endTime="2009-07-19T12:59:14.9522500+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

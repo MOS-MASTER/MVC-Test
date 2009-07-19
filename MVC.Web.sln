@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC.Web", "MVC.Web\MVC.Web.csproj", "{4D122982-02FD-4675-BA03-AC9C79B1429F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC.Data", "MVC.Data\MVC.Data.csproj", "{E4B4ECEA-BF3F-4331-878A-9D656E3579D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC.IntegrationTests", "MVC.IntegrationTests\MVC.IntegrationTests.csproj", "{2F670D39-8C25-4688-AC90-3C83A8A84F4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BE71C641-F119-48B6-ACB8-AE4FE167D66B}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		MVC.Web.vsmdi = MVC.Web.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC.ModelTests", "MVC.ModelTests\MVC.ModelTests.csproj", "{F67255AC-C1F3-4AEC-8BE1-0A68FECBE71F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC.Services", "MVC.Services\MVC.Services.csproj", "{84775D8F-AF02-4F6A-B3A3-8045DAE6DA9C}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = MVC.Web.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D122982-02FD-4675-BA03-AC9C79B1429F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D122982-02FD-4675-BA03-AC9C79B1429F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D122982-02FD-4675-BA03-AC9C79B1429F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D122982-02FD-4675-BA03-AC9C79B1429F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4B4ECEA-BF3F-4331-878A-9D656E3579D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4B4ECEA-BF3F-4331-878A-9D656E3579D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4B4ECEA-BF3F-4331-878A-9D656E3579D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4B4ECEA-BF3F-4331-878A-9D656E3579D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F670D39-8C25-4688-AC90-3C83A8A84F4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F670D39-8C25-4688-AC90-3C83A8A84F4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F670D39-8C25-4688-AC90-3C83A8A84F4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F670D39-8C25-4688-AC90-3C83A8A84F4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F67255AC-C1F3-4AEC-8BE1-0A68FECBE71F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F67255AC-C1F3-4AEC-8BE1-0A68FECBE71F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F67255AC-C1F3-4AEC-8BE1-0A68FECBE71F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F67255AC-C1F3-4AEC-8BE1-0A68FECBE71F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84775D8F-AF02-4F6A-B3A3-8045DAE6DA9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84775D8F-AF02-4F6A-B3A3-8045DAE6DA9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84775D8F-AF02-4F6A-B3A3-8045DAE6DA9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84775D8F-AF02-4F6A-B3A3-8045DAE6DA9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

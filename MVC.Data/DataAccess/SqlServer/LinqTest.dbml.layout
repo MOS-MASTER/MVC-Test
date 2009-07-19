@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="LinqTest">
+  <DataContextMoniker Name="/LinqTestDataContext" />
+  <nestedChildShapes>
+    <classShape Id="d9339307-2656-4796-b066-c352a9e2c27a" absoluteBounds="0.75, 1, 2, 1.0961531575520833">
+      <DataClassMoniker Name="/LinqTestDataContext/Category" />
+      <nestedChildShapes>
+        <elementListCompartment Id="15cb19d7-d0ca-4040-8596-12c396c61342" absoluteBounds="0.765, 1.46, 1.9700000000000002, 0.53615315755208326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d919d7a8-e5b8-46b8-9044-50e39c55a9bb" absoluteBounds="3.5, 0.875, 2, 1.2605004882812498">
+      <DataClassMoniker Name="/LinqTestDataContext/Product" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4526acf1-b5f8-46d1-8cef-4343726fc9bd" absoluteBounds="3.515, 1.335, 1.9700000000000002, 0.70050048828125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.54807657877604); (3.5 : 1.54807657877604)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/LinqTestDataContext/Category/Category_Product" />
+      <nodes>
+        <classShapeMoniker Id="d9339307-2656-4796-b066-c352a9e2c27a" />
+        <classShapeMoniker Id="d919d7a8-e5b8-46b8-9044-50e39c55a9bb" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

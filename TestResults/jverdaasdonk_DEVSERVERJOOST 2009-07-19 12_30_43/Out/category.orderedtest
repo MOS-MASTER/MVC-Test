@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="OrderedTest1" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\mvc.web\mvc.integrationtests\orderedtest1.orderedtest" id="54597ad9-2fdc-4be0-94dc-44d1f37511f4" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <Css projectStructure="" iteration="" />
+  <Execution timeOut="2147483647" />
+  <Owners>
+    <Owner name="" />
+  </Owners>
+  <TestLinks>
+    <TestLink id="d251235d-3f9a-02dd-b058-93859f63f687" name="CategoryFruitsShouldReturnFiveProducts" storage="bin\debug\cs.integrationtests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="3b352e0d-4fd7-d071-a055-c45c5efa12fe" name="CategoryServiceShouldReturnCategoryFruits" storage="bin\debug\cs.integrationtests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="9760d0ce-fa54-5ecd-9a14-9a259f5f5ce4" name="CategoryServiceShouldReturnCategoryOneWithNameFruits" storage="bin\debug\cs.integrationtests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="e78564fb-ad67-794b-9f2f-8919b5b0c716" name="CategoryServiceShouldReturnTwoCategories" storage="bin\debug\cs.integrationtests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="229b5f71-1814-2275-1196-c301c12dee14" name="SqlCategoryReposistoryShoulReturnThreeCategories" storage="bin\debug\cs.integrationtests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="b261d57a-a0d4-2422-1b4e-7720fd67ae92" name="SqlCategoryRepositoryShouldReturnCategoriesAsQueryable" storage="bin\debug\cs.integrationtests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="ce2696e7-06d2-a9a6-86a0-8d39eab0b37a" name="SqlCategoryRepositoryShouldReturnFiveProductsForCategoryOne" storage="bin\debug\cs.integrationtests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="4a78e191-f633-e591-0b49-d70a6e808c66" name="SqlCategoryRepositoryAddNewCategoryWithNameCoding" storage="bin\debug\cs.integrationtests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="fde40969-348d-88b5-11bb-a059e4f6d432" name="SqlCategoryRepositoryDeleteNewCategoryWithNameCoding" storage="bin\debug\cs.integrationtests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="f1a7b245-9cb6-857c-99d2-1a0550f76361" name="CategoryServiceAddCategoryWithNameServiceTest" storage="bin\debug\cs.integrationtests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="3b0824dc-1a26-39d5-191c-c876715c95bc" name="CategoryServiceDeleteCategoryWithNameServiceTest" storage="bin\debug\cs.integrationtests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

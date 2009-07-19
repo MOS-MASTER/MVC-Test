@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6d4ee4f1-da9b-41db-88e9-6167239f2f34" name="jverdaasdonk@DEVSERVERJOOST 2009-07-18 01:24:18" runUser="DEVSERVERJOOST\jverdaasdonk" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Default Run Configuration" id="25002313-07e2-42d3-a130-0afb0b41add5">
+    <Deployment runDeploymentRoot="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\CS.Web\CS.IntegrationTests\bin\Debug\TestResults\jverdaasdonk_DEVSERVERJOOST 2009-07-18 01_24_18" />
+    <Hosts skipUnhostableTests="false" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2009-07-18T01:24:18.9217500+02:00" queuing="2009-07-18T01:24:19.9373750+02:00" start="2009-07-18T01:24:20.0780000+02:00" finish="2009-07-18T01:24:23.0623750+02:00" />
+  <TestDefinitions>
+    <UnitTest name="SelectOnlyProductId1ReturnsProductWithNameApples" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\cs.web\cs.integrationtests\bin\debug\cs.integrationtests.dll" id="1abeffcf-e17a-da62-63ea-49ec89ca0f95">
+      <Css projectStructure="" iteration="" />
+      <Execution timeOut="1800000" id="7b4d0bf0-47e4-4f77-a5e1-857228a6c5a2" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:/Documents and Settings/jverdaasdonk/My Documents/Visual Studio 2008/Projects/CS.Web/CS.IntegrationTests/bin/Debug/CS.IntegrationTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter" className="CS.IntegrationTests.ProductIntegrationTest, CS.IntegrationTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SelectOnlyProductId1ReturnsProductWithNameApples" />
+    </UnitTest>
+    <UnitTest name="SqlProductRepositoryShouldReturnProductsAsQueryable" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\cs.web\cs.integrationtests\bin\debug\cs.integrationtests.dll" id="3b5e9930-4867-8bf6-c93c-a718f9ed6a66">
+      <Css projectStructure="" iteration="" />
+      <Execution timeOut="1800000" id="2977fd37-8b71-4b50-bd83-8693c0f13bb7" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:/Documents and Settings/jverdaasdonk/My Documents/Visual Studio 2008/Projects/CS.Web/CS.IntegrationTests/bin/Debug/CS.IntegrationTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter" className="CS.IntegrationTests.ProductIntegrationTest, CS.IntegrationTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SqlProductRepositoryShouldReturnProductsAsQueryable" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1abeffcf-e17a-da62-63ea-49ec89ca0f95" executionId="7b4d0bf0-47e4-4f77-a5e1-857228a6c5a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3b5e9930-4867-8bf6-c93c-a718f9ed6a66" executionId="2977fd37-8b71-4b50-bd83-8693c0f13bb7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7b4d0bf0-47e4-4f77-a5e1-857228a6c5a2" testId="1abeffcf-e17a-da62-63ea-49ec89ca0f95" testName="SelectOnlyProductId1ReturnsProductWithNameApples" computerName="DEVSERVERJOOST" duration="00:00:02.6137531" startTime="2009-07-18T01:24:20.1248750+02:00" endTime="2009-07-18T01:24:22.9842500+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2977fd37-8b71-4b50-bd83-8693c0f13bb7" testId="3b5e9930-4867-8bf6-c93c-a718f9ed6a66" testName="SqlProductRepositoryShouldReturnProductsAsQueryable" computerName="DEVSERVERJOOST" duration="00:00:00.0006322" startTime="2009-07-18T01:24:22.9998750+02:00" endTime="2009-07-18T01:24:23.0155000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,8 @@
+C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\CS.Web\CS.Services\bin\Debug\CS.Services.dll
+C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\CS.Web\CS.Services\bin\Debug\CS.Services.pdb
+C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\CS.Web\CS.Services\bin\Debug\CS.Data.dll
+C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\CS.Web\CS.Services\bin\Debug\StructureMap.dll
+C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\CS.Web\CS.Services\bin\Debug\CS.Data.pdb
+C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\CS.Web\CS.Services\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\CS.Web\CS.Services\obj\Debug\CS.Services.dll
+C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\CS.Web\CS.Services\obj\Debug\CS.Services.pdb

@@ -1,0 +1,11 @@
+C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\CS.Web\CS.IntegrationTests\bin\Debug\CS.IntegrationTests.dll
+C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\CS.Web\CS.IntegrationTests\bin\Debug\CS.IntegrationTests.pdb
+C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\CS.Web\CS.IntegrationTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\CS.Web\CS.IntegrationTests\obj\Debug\CS.IntegrationTests.dll
+C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\CS.Web\CS.IntegrationTests\obj\Debug\CS.IntegrationTests.pdb
+C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\CS.Web\CS.IntegrationTests\bin\Debug\CS.IntegrationTests.dll.config
+C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\CS.Web\CS.IntegrationTests\bin\Debug\CS.Data.dll
+C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\CS.Web\CS.IntegrationTests\bin\Debug\StructureMap.dll
+C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\CS.Web\CS.IntegrationTests\bin\Debug\CS.Data.pdb
+C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\CS.Web\CS.IntegrationTests\bin\Debug\CS.Services.dll
+C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\CS.Web\CS.IntegrationTests\bin\Debug\CS.Services.pdb

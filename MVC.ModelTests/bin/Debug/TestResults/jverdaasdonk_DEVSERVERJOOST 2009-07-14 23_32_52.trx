@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5857ce95-4bfe-42ff-847b-89bca938121f" name="jverdaasdonk@DEVSERVERJOOST 2009-07-14 23:32:52" runUser="DEVSERVERJOOST\jverdaasdonk" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Default Run Configuration" id="8175d452-5ec4-4625-a14d-51ed29a883f3">
+    <Deployment runDeploymentRoot="C:\Documents and Settings\jverdaasdonk\My Documents\Visual Studio 2008\Projects\CS.Web\CS.Tests\bin\Debug\TestResults\jverdaasdonk_DEVSERVERJOOST 2009-07-14 23_32_52" />
+    <Hosts skipUnhostableTests="false" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2009-07-14T23:32:52.2811250+02:00" queuing="2009-07-14T23:32:54.1873750+02:00" start="2009-07-14T23:32:54.3592500+02:00" finish="2009-07-14T23:32:55.3123750+02:00" />
+  <TestDefinitions>
+    <UnitTest name="ProductsRepository_Should_Return_5_Products" storage="c:\documents and settings\jverdaasdonk\my documents\visual studio 2008\projects\cs.web\cs.tests\bin\debug\cs.tests.dll" id="926e9a16-3053-d5b9-c8b9-05392b2ae4c4">
+      <Css projectStructure="" iteration="" />
+      <Execution timeOut="1800000" id="c357c7a1-ffbd-4158-b955-b4caa4f2bb0f" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:/Documents and Settings/jverdaasdonk/My Documents/Visual Studio 2008/Projects/CS.Web/CS.Tests/bin/Debug/CS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter" className="CS.Tests.Model.ProductTest, CS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProductsRepository_Should_Return_5_Products" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="926e9a16-3053-d5b9-c8b9-05392b2ae4c4" executionId="c357c7a1-ffbd-4158-b955-b4caa4f2bb0f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c357c7a1-ffbd-4158-b955-b4caa4f2bb0f" testId="926e9a16-3053-d5b9-c8b9-05392b2ae4c4" testName="ProductsRepository_Should_Return_5_Products" computerName="DEVSERVERJOOST" duration="00:00:00.4013127" startTime="2009-07-14T23:32:54.4373750+02:00" endTime="2009-07-14T23:32:55.2342500+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
